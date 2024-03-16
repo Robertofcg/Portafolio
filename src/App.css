@@ -1,23 +1,22 @@
-.navbar-light .navbar-brand {
-  color: #1c1c1c !important;
-  font-weight: 500;
-  transition: 0.5s;
+* {
+  font-family: "Onest", sans-serif;
 }
 
-.bg-blue2 {
-  background: #e6e7e9;
+.navbar-light .navbar-brand {
+  color: white !important;
+  font-weight: 500;
+  transition: 0.5s;
 }
 
 .navbar-brand:hover,
 .nav-link:hover {
   transform-style: 0.6s;
-  color: #153ba5 !important;
+  color: #4d7cff !important;
 }
 
 
 .home {
   padding: 60px 0 40px 0;
-  background: #e6e7e8;
 }
 
 .home-img {
@@ -30,11 +29,14 @@
 h1.intro-tx1 {
   width: 100%;
   font-size: 30px;
+  font-weight: 550;
+
 }
 
 h3.texto-Area {
   color: #143ba5;
   text-transform: capitalize !important;
+  font-weight: 660;
 }
 
 span.skills {
