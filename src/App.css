@@ -14,9 +14,13 @@
   color: #4d7cff !important;
 }
 
-
-.home {
+.hero {
+  background-color: #f8f9fa;
   padding: 60px 0 40px 0;
+}
+
+.about {
+  padding: 20px 0;
 }
 
 .home-img {
@@ -25,12 +29,10 @@
   height: auto;
 }
 
-
 h1.intro-tx1 {
   width: 100%;
   font-size: 30px;
   font-weight: 550;
-
 }
 
 h3.texto-Area {
@@ -53,9 +55,72 @@ span.skills {
 }
 
 .snlnk {
-  color: #a51427;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
 }
 
-.rd {
-  margin: 0 !important;
+.snlnk:hover {
+  background-color: #0056b3;
 }
+
+.footer {
+  background-color: #343a40;
+}
+
+.footer h3 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.footer .social-networks {
+  margin-top: 20px;
+}
+
+.footer .social-networks li {
+  margin: 0 10px;
+}
+
+.footer .social-networks .snlnk {
+  font-size: 24px;
+}
+
+#custom-styles {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#custom-styles > * + * {
+  margin-top: 0.75rem;
+}
+
+#custom-styles {
+  padding-bottom: 1.25rem;
+}
+
+#custom-styles {
+  text-align: left;
+}
+
+#custom-styles {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  #custom-styles {
+    font-size: 1.125rem;
+  }
+}
+
+#custom-styles p {
+  margin-top: 0;
+}
+
+

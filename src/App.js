@@ -26,50 +26,57 @@ function App() {
         </Container>
       </Navbar>
 
-      <section className="home" style={{ padding: '20px 0' }}>
+      <section className="hero">
         <div className="container" id="maincontent">
           <div className="row">
             <div className="col-lg-12">
               <div className="row d-flex justify-content-center">
-                <div className="row d-flex justify-content-center">
-                  {/* Reemplaza el elemento SVG con la imagen */}
-                  <div className="d-flex justify-content-center">
-                    <img src={profileImg} alt="Profile" className="img-responsive profile-img home-img shadow" />
-                  </div>
+                {/* Reemplaza el elemento SVG con la imagen */}
+                <div className="d-flex justify-content-center">
+                  <img src={profileImg} alt="Profile" className="img-responsive profile-img home-img shadow" />
                 </div>
               </div>
               <div className="row intro-text d-flex justify-content-center text-center mt-3">
                 <h1 className="intro-tx1">Roberto Carlos Rendón Peláez</h1>
                 <h3 className="fs-1 texto-Area">FULL STACK WEB DEVELOPER</h3>
-                <span className="fs-5">HTML/CSS | Bootstrap | Javascript | React | Spring Framework | NodeJs | Java</span>
-              </div>
-              <div className='bg-white mt-5 p-4'>
-                <h1 class="fw-bold text-dark fs-4 fs-sm-2"> Hola soy<span class="text-primary fw-bold"> Ing. en Sistemas Computacionales</span>Hola soy Hola soy Hola soy Hola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soyHola soy</h1>
-
-              </div>
-              <div className="text-center margin-bottom-60">
-                <ul className="social-networks spin-icon">
-                  <li>
-                    <a className="nav-link snlnk" href="https://www.facebook.com/markos.nunnes.87">
-                      <i className="fa fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a className="nav-link snlnk" href="https://www.linkedin.com/in/marcos-nunes-de-souza-nipfhire">
-                      <i className="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a className="nav-link snlnk" href="https://github.com/MarcosNSouza87">
-                      <i className="fa fa-github"></i>
-                    </a>
-                  </li>
-                </ul>
+                <span className="fs-5">HTML/CSS | Bootstrap | JavaScript | React | Spring Framework | Node.js | Java</span>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section className="container about">
+        <div id="custom-styles" className='bg-white p-4 mb-4'>
+          <div class="pb-5">
+            <p className='fs-5'>Hola 👋,soy graduado de la carrera de Ingeniería en Sistemas Computacionales con una pasión por la tecnología y el desarrollo de software. Soy de México del estado de Oaxaca. Me especializo en Tecnologías De Software Emergente y tengo más de 1 año de experiencia en el campo.</p>
+            <p className='fs-5'>Me caracterizo por ser <strong>amable, responsable y comprometido </strong>, con una fuerte <strong>ética de trabajo</strong> y una <strong>actitud proactiva</strong>. Constantemente busco aprender y mejorar mis habilidades técnicas para enfrentar nuevos desafíos.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer className="footer">
+        <div className="container text-center py-5">
+          <h3 className="text-uppercase mb-4">¡Sígueme en redes sociales!</h3>
+          <ul className="social-networks">
+            <li>
+              <a className="snlnk" href="https://www.facebook.com/markos.nunnes.87">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a className="snlnk" href="https://www.linkedin.com/in/marcos-nunes-de-souza-nipfhire">
+                <i className="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a className="snlnk" href="https://github.com/MarcosNSouza87">
+                <i className="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </>
   );
 }
