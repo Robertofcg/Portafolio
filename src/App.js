@@ -8,13 +8,16 @@ function App() {
 
   return (
     <>
-      <Navbar style={{ background: '#2d3748' }} expand="lg" expanded={expanded}>
+      <Navbar style={{ background: '#2d3748' }} expand="lg" expanded={expanded} fixed='top'>
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Navbar.Toggle
-            aria-controls="basic-navbar-nav"
+            aria-controls="responsive-navbar-nav"
             onClick={() => setExpanded(expanded ? false : "expanded")}
-          />
+            style={{ background: 'white' }} // Cambiar el color del borde a blanco
+          >
+            <span className="navbar-toggler-icon" style={{ color: 'white' }}></span> {/* Cambiar el color del icono a blanco */}
+          </Navbar.Toggle>
           <Navbar.Collapse id="navbarNav" className="justify-content-center">
             <Nav className="text-uppercase">
               <Nav.Link href="#home" className='text-white'><b>Home</b></Nav.Link>
@@ -26,14 +29,15 @@ function App() {
         </Container>
       </Navbar>
 
+
+
       <section className="hero">
         <div className="container" id="maincontent">
           <div className="row">
             <div className="col-lg-12">
               <div className="row d-flex justify-content-center">
-                {/* Reemplaza el elemento SVG con la imagen */}
                 <div className="d-flex justify-content-center">
-                  <img src={profileImg} alt="Profile" className="img-responsive profile-img home-img shadow" />
+                  <img src={profileImg} alt="Profile" className="img-responsive profile-img home-img shadow" style={{ width: '100%', marginTop: '60px' }}/>
                 </div>
               </div>
               <div className="row intro-text d-flex justify-content-center text-center mt-3">
@@ -48,8 +52,8 @@ function App() {
 
       <section className="container about">
         <div id="custom-styles" className='bg-white p-4 mb-4'>
-          <div class="pb-5">
-            <p className='fs-5'>Hola 👋,soy graduado de la carrera de Ingeniería en Sistemas Computacionales con una pasión por la tecnología y el desarrollo de software. Soy de México del estado de Oaxaca. Me especializo en Tecnologías De Software Emergente y tengo más de 1 año de experiencia en el campo.</p>
+          <div className="pb-5" style={{ textAlign: 'justify' }}>
+            <p className='fs-5'>Hola 👋,soy egresado de la carrera de <strong>Ingeniería en Sistemas Computacionales</strong> con una pasión por la tecnología y el desarrollo de software. Soy de México del estado de Oaxaca. Me especializo en <strong>Tecnologías De Software Emergente</strong> y tengo más de 1 año de experiencia en el campo.</p>
             <p className='fs-5'>Me caracterizo por ser <strong>amable, responsable y comprometido </strong>, con una fuerte <strong>ética de trabajo</strong> y una <strong>actitud proactiva</strong>. Constantemente busco aprender y mejorar mis habilidades técnicas para enfrentar nuevos desafíos.</p>
           </div>
         </div>
