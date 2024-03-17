@@ -2,6 +2,8 @@ import './App.css';
 import React, { useState } from 'react';
 import profileImg from './perfil.jpg';
 import logo from './logo.png';
+import logo2 from './logo_plantel.png';
+
 
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
@@ -62,8 +64,8 @@ function App() {
       </section>
 
       <section className="container about">
-        <div id="custom-styles" className='bg-white p-4 mb-4'>
-          <div className="pb-5" style={{ textAlign: 'justify' }}>
+        <div id="custom-styles" className='bg-white p-4'>
+          <div className="pb-2" style={{ textAlign: 'justify' }}>
             <div className="card">
               <div className="card-header fs-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-mortarboard" viewBox="0 0 16 16">
@@ -81,13 +83,76 @@ function App() {
                   <p className='mb-0'>@ Instituto Tecnológico de Oaxaca</p>
                 </div>
               </div>
-              <p class="card-body">I'm a graduate Computer Systems Engineer with a specialization in Emerging Technologies. In my career, I learned about the fundamentals of computer science, software development, and emerging technologies such as Artificial Intelligence, Augmented Reality, and Virtual Reality.</p>
-
+              <p class="card-body">Mi formación se centra en Java como lenguaje principal, con especialización en programación orientada a objetos, estructura de datos y algoritmos entre otros. Además, he explorado patrones de diseño para el desarrollo de software. Integré este conocimiento con frameworks como Spring para aplicaciones Java empresariales, así como con tecnologías modernas como React para el desarrollo frontend y Node.js para el desarrollo de backend.</p>
+              <div class="d-flex card-body">
+                <a class="d-none d-md-flex me-2 align-self-center" href="http://www.oaxaca.tecnm.mx/">
+                  <img src={logo2} alt="Technological Institute Of Oaxaca" class="m-auto" style={{ height: '80px', width: '80px' }} />
+                </a>
+                <div class="flex-grow-1">
+                  <p style={{ color: '#143ba5' }}><b>Técnico en Ofimática</b></p>
+                  <span style={{ fontSize: '15px', color: '#143ba5', fontWeight: '600' }}>Agosto 2015 - Julio 2018</span>
+                  <p className='mb-0'>@ Centro de Bachillerato Industrial y de Servicios 259</p>
+                </div>
+              </div>
+              <p class="card-body">A través de mi formación técnica en Ofimática, he desarrollado habilidades sólidas en el manejo de paqueterías de office, bases de datos, redes, algoritmos y pseudocódigo.</p>
 
             </div>
           </div>
         </div>
       </section>
+
+      <section className="container about">
+  <div id="custom-styles" className='bg-white p-4'>
+    <div className="pb-2 card" style={{ textAlign: 'justify' }}>
+      <div className="card-header fs-3 ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-star" viewBox="0 0 16 16">
+          <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+        </svg> Experiencia Profesional
+      </div>
+
+      <div className="row">
+        <div className="col-lg-3 p-4">
+          <div className="contenido">
+            <span className="text-base">You can download my CV by clicking the button below.</span>
+            <div className="d-flex justify-content-center">
+              <button className="mt-2 cv">
+                Download CV
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-9 col">
+          <div className="content">
+            <div className='mx-2'>
+              <h3 className='mt-4'>Full Stack Developer</h3>
+              <time>Jan 2024 - Present</time>
+              <h4>@ Technological Institute of Oaxaca</h4>
+              <div>
+                <p>For the last <strong>3</strong> months, I've been working as a Full-Stack developer for the Systems and Computing department, contributing to the development of an institutional system intended to manage the academic and administrative processes of the institute. My main responsibilities include:</p>
+                <ul>
+                  <li>Analyzing administrative processes and identifying areas for improvement.</li>
+                  <li>Designing and maintaining server-side logic using <strong>Typescript</strong>, <strong>Next.js</strong>, and <strong>Nest.js</strong>.</li>
+                  <li>Collaborating with other developers and stakeholders.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="content">
+            <div className='mx-2'>
+              <h3>Full Stack Developer</h3>
+              <time>Jan 2024 - Present</time>
+              <h4>@ Technological Institute of Oaxaca</h4>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
       <footer className="footer">
         <div className="container text-center py-5">

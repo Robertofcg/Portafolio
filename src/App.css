@@ -10,7 +10,7 @@
 
 .navbar-brand:hover,
 .nav-link:hover {
-  transform-style: 0.6s;
+  transform: scale(1.1);
   color: #4d7cff !important;
 }
 
@@ -37,8 +37,8 @@ h1.intro-tx1 {
 
 h3.texto-Area {
   color: #143ba5;
-  text-transform: capitalize !important;
-  font-weight: 660;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
 span.skills {
@@ -95,21 +95,8 @@ span.skills {
 #custom-styles {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-#custom-styles > * + * {
-  margin-top: 0.75rem;
-}
-
-#custom-styles {
   padding-bottom: 1.25rem;
-}
-
-#custom-styles {
   text-align: left;
-}
-
-#custom-styles {
   font-size: 1rem;
 }
 
@@ -123,7 +110,58 @@ span.skills {
   margin-top: 0;
 }
 
+.col {
+  border-left: 2px solid #ccc;
+}
+
+.content {
+  position: relative;
+}
+
+.content::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #143ba5;
+  border-radius: 50%;
+  position: absolute;
+  left: -23px;
+  top: 6px;
+}
+@media screen and (max-width: 992px) {
+  .col {
+    border-left: 2px solid #ccc;
+    position: relative;
+    margin-left: 28px;
+  }
+  
+  .content::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #143ba5;
+    border-radius: 50%;
+    position: absolute;
+    left: -23px;
+    top: 6px;
+    z-index: 1; /* Aumenta la especificidad del selector */
+  }
+}
 
 
+.cv {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: 3px solid #143ba5;
+  border-radius: 5px;
+  color: #143ba5;
+  font-weight: bold;
+  cursor: pointer;
+}
 
-
+.cv:hover {
+  background-color: #143ba5;
+  color: #ffffff;
+}
