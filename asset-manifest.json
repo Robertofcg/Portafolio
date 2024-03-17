@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.76bf32c4.css",
-    "main.js": "/Portafolio/static/js/main.dd0fb2ea.js",
+    "main.css": "/Portafolio/static/css/main.ef697e01.css",
+    "main.js": "/Portafolio/static/js/main.44e345b1.js",
     "static/js/453.d85580f4.chunk.js": "/Portafolio/static/js/453.d85580f4.chunk.js",
+    "static/media/logo_plantel.png": "/Portafolio/static/media/logo_plantel.5eb156821651847d0adc.png",
     "static/media/logo.png": "/Portafolio/static/media/logo.18634f58020450d16ae5.png",
     "static/media/perfil.jpg": "/Portafolio/static/media/perfil.7bb16c8289305a664785.jpg",
     "index.html": "/Portafolio/index.html",
-    "main.76bf32c4.css.map": "/Portafolio/static/css/main.76bf32c4.css.map",
-    "main.dd0fb2ea.js.map": "/Portafolio/static/js/main.dd0fb2ea.js.map",
+    "main.ef697e01.css.map": "/Portafolio/static/css/main.ef697e01.css.map",
+    "main.44e345b1.js.map": "/Portafolio/static/js/main.44e345b1.js.map",
     "453.d85580f4.chunk.js.map": "/Portafolio/static/js/453.d85580f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.76bf32c4.css",
-    "static/js/main.dd0fb2ea.js"
+    "static/css/main.ef697e01.css",
+    "static/js/main.44e345b1.js"
   ]
 }
