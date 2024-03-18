@@ -10,7 +10,7 @@
 
 .navbar-brand:hover,
 .nav-link:hover {
-  transform: scale(1.1);
+  transform: scale(1.005);
   color: #4d7cff !important;
 }
 
