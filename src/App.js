@@ -58,22 +58,28 @@ function App() {
             </div>
             <nav className="hidden md:flex space-x-10">
               <a
-                href="/solutions"
+                href="#home"
                 className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
               >
                 Inicio
               </a>
               <a
-                href="/pricing"
+                href="#experiencia"
                 className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
               >
                 Experiencia
               </a>
               <a
-                href="/docs"
+                href="/#educacion"
                 className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
               >
                 Eduación
+              </a>
+              <a
+                href="/#contacto"
+                className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
+              >
+                Contacto
               </a>
             </nav>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
@@ -90,22 +96,28 @@ function App() {
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-              href="/solutions"
+              href="/#home"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
             >
-              Solutions
+              Inicio
             </a>
             <a
-              href="/pricing"
+              href="/#experiencia"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
             >
-              Pricing
+              Experiencia
             </a>
             <a
-              href="/docs"
+              href="/#educacion"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
             >
-              Docs
+              Eduación
+            </a>
+            <a
+              href="/#contacto"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
+            >
+              Contacto
             </a>
           </div>
           <div className="pt-4 pb-3 border-t border-gray-200">
@@ -162,135 +174,46 @@ function App() {
       </section>
 
       <section id="experiencia">
-        <div className="container mx-auto px-5">
-          <h3 className="title-font sm:text-6xl text-4xl mb-4 font-medium text-gray-900 lg:py-10">Experiencia</h3>
-        </div>
-
-        <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-5 py-10">
-          <div className="relative grid gap-4 sm:grid-cols-12">
-            <div className="col-span-12 sm:col-span-3">
-              <div className="text-center sm:text-center before:dark:from-sky-500 sticky top-28">
-                <p className="text-lg mb-8 leading-relaxed text-gray-600 font-medium"> Puedes descargar el CV dando clic en el boton de abajo. </p>
-                <div className="flex justify-center">
-                  <button className="mt-2 cv border-solid border-4 border-blue-900 text-blue-900 text-xl rounded p-3 hover:bg-blue-900 hover:text-white">
-                    <b>
-                      Download CV
-                    </b>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
-              <div className="col-span-12 relative px-4 sm:col-span-8 before:absolute before:top-[5px] before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-300 dark:before:bg-gray-700">
-                <div className="flex flex-col relative before:absolute before:top-[5px] before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-sky-800 before:dark:bg-sky-500">
-                  <h3 className="text-2xl text-blue-900 font-medium"> Desarrollador Full Stack</h3>
-                  <time className="text-blue-600"> Enero 2023 - Diciembre 2023 </time>
-                  <h4 className="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
-                  <div className="experience__description">
-                    <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Proyecto de residencia profesional enfocado en el desarrollo de una aplicación web utilizando HTML, CSS,
-                      JavaScript y el framework Django y Spring. Se implementaron Redes Neuronales Convolucionales para la detección de un tipo específico de cubrebocas, con el propósito de
-                      determinar su nivel de protección y ofrecer recomendaciones pertinentes, en beneficio de la Escuela Primaria "Melchor Ocampo" en San Martín Mexicapan, Oaxaca.</p>
-                  </div>
-                </div>
-                <div className="flex flex-col relative before:absolute before:top-[5px] before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-sky-800 before:dark:bg-sky-500">
-                  <h3 className="text-2xl text-blue-900 font-medium">Desarrollador Full Stack en Microservicio de Facturación</h3>
-                  <time className="text-blue-600"> Enero 2023 - Diciembre 2023 </time>
-                  <h4 className="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
-                  <div className="experience__description">
-                    <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Durante el curso de Desarrollo de Software Orientado a Servicios se llevó a cabo un proyecto enfocado
-                      en la integración del API de un microservicio de pagos para la gestión de transacciones y generación de facturas. Para el desarrollo del backend, se emplearon tecnologías
-                      como Spring (Boot, MVC, JPA) para la creación y consumo de microservicios. Mientras tanto, en el frontend se utilizó un conjunto diverso de herramientas como React.js,
-                      Bootstrap, CSS, HTML5 y JavaScript. Como base de datos, se implementó MySQL para asegurar un almacenamiento eficiente y confiable de los datos.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div>
+          <div className="container mx-auto px-5 pt-24 lg:pt-14">
+            <h3 className="title-font sm:text-6xl text-4xl font-medium text-gray-900 lg:py-10">Experiencia</h3>
           </div>
-        </div>
-      </section>
-
-
-      <section className="container about">
-        <div id="custom-styles" className='bg-white p-4'>
-          <div className="pb-2" style={{ textAlign: 'justify' }}>
-            <div className="card">
-              <div className="card-header fs-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-mortarboard" viewBox="0 0 16 16">
-                  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
-                  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
-                </svg> Eduación
-              </div>
-              <div className="d-flex card-body">
-                <a className="d-none d-md-flex me-2 align-self-center" href="http://www.oaxaca.tecnm.mx/">
-                  <img src={logo} alt="Technological Institute Of Oaxaca" className="m-auto" style={{ height: '80px', width: '80px' }} />
-                </a>
-                <div className="flex-grow-1">
-                  <p style={{ color: '#143ba5' }}><b>Ingeniería en Sistemas Computacionales</b></p>
-                  <span style={{ fontSize: '15px', color: '#143ba5', fontWeight: '600' }}>Agosto 2018 - Diciembre 2023</span>
-                  <p className='mb-0'>@ Instituto Tecnológico de Oaxaca</p>
-                </div>
-              </div>
-              <p className="card-body">Mi formación se centra en Java como lenguaje principal, con especialización en programación orientada a objetos, estructura de datos y algoritmos entre otros. Además, he explorado patrones de diseño para el desarrollo de software. Integré este conocimiento con frameworks como Spring para aplicaciones Java empresariales, así como con tecnologías modernas como React para el desarrollo frontend y Node.js para el desarrollo de backend.</p>
-              <div className="d-flex card-body">
-                <a className="d-none d-md-flex me-2 align-self-center" href="http://www.oaxaca.tecnm.mx/">
-                  <img src={logo2} alt="Technological Institute Of Oaxaca" className="m-auto" style={{ height: '80px', width: '80px' }} />
-                </a>
-                <div className="flex-grow-1">
-                  <p style={{ color: '#143ba5' }}><b>Técnico en Ofimática</b></p>
-                  <span style={{ fontSize: '15px', color: '#143ba5', fontWeight: '600' }}>Agosto 2015 - Julio 2018</span>
-                  <p className='mb-0'>@ Centro de Bachillerato Industrial y de Servicios 259</p>
-                </div>
-              </div>
-              <p className="card-body">A través de mi formación técnica en Ofimática, he desarrollado habilidades sólidas en el manejo de paqueterías de office, bases de datos, redes, algoritmos y pseudocódigo.</p>
-
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="container about">
-        <div id="custom-styles" className='bg-white p-4'>
-          <div className="pb-2 card" style={{ textAlign: 'justify' }}>
-            <div className="card-header fs-3 ">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-star" viewBox="0 0 16 16">
-                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
-              </svg> Experiencia Profesional
-            </div>
-
-            <div className="row">
-              <div className="col-lg-3 p-4">
-                <div className="contenido">
-                  <span className="text-base">You can download my CV by clicking the button below.</span>
-                  <div className="d-flex justify-content-center">
-                    <button className="mt-2 cv">
-                      Download CV
+          <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-5">
+            <div className="relative grid gap-4 sm:grid-cols-12">
+              <div className="col-span-12 sm:col-span-3">
+                <div className="text-center sm:text-center before:dark:from-sky-500 sticky top-28">
+                  <p className="text-lg mb-8 leading-relaxed text-gray-600 font-medium"> Puedes descargar el CV dando clic en el boton de abajo. </p>
+                  <div className="flex justify-center">
+                    <button className="mt-2 cv border-solid border-4 border-blue-900 text-blue-900 text-xl rounded p-3 hover:bg-blue-900 hover:text-white">
+                      <b>
+                        Download CV
+                      </b>
                     </button>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-9 col">
-                <div className="content">
-                  <div className='mx-2'>
-                    <h3 className='mt-4'>Full Stack Developer</h3>
-                    <time>Jan 2024 - Present</time>
-                    <h4>@ Technological Institute of Oaxaca</h4>
-                    <div>
-                      <p>For the last <strong>3</strong> months, I've been working as a Full-Stack developer for the Systems and Computing department, contributing to the development of an institutional system intended to manage the academic and administrative processes of the institute. My main responsibilities include:</p>
-                      <ul>
-                        <li>Analyzing administrative processes and identifying areas for improvement.</li>
-                        <li>Designing and maintaining server-side logic using <strong>Typescript</strong>, <strong>Next.js</strong>, and <strong>Nest.js</strong>.</li>
-                        <li>Collaborating with other developers and stakeholders.</li>
-                      </ul>
+              <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
+                <div className="col-span-12 relative px-4 sm:col-span-8 before:absolute before:top-[5px] before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-300 dark:before:bg-gray-700">
+                  <div className="flex flex-col relative before:absolute before:top-[5px] before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-sky-800 before:dark:bg-sky-500">
+                    <h3 className="text-2xl text-blue-900 font-medium"> Desarrollador Full Stack</h3>
+                    <time className="text-blue-600"> Enero 2023 - Diciembre 2023 </time>
+                    <h4 className="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
+                    <div className="experience__description">
+                      <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Proyecto de residencia profesional enfocado en el desarrollo de una aplicación web utilizando HTML, CSS,
+                        JavaScript y el framework Django y Spring. Se implementaron Redes Neuronales Convolucionales para la detección de un tipo específico de cubrebocas, con el propósito de
+                        determinar su nivel de protección y ofrecer recomendaciones pertinentes, en beneficio de la Escuela Primaria "Melchor Ocampo" en San Martín Mexicapan, Oaxaca.</p>
                     </div>
                   </div>
-                </div>
-                <div className="content">
-                  <div className='mx-2'>
-                    <h3>Full Stack Developer</h3>
-                    <time>Jan 2024 - Present</time>
-                    <h4>@ Technological Institute of Oaxaca</h4>
-                  </div>
-                  <div>
+                  <div className="flex flex-col relative before:absolute before:top-[5px] before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-sky-800 before:dark:bg-sky-500">
+                    <h3 className="text-2xl text-blue-900 font-medium">Desarrollador Full Stack en Microservicio de Facturación</h3>
+                    <time className="text-blue-600"> Enero 2023 - Diciembre 2023 </time>
+                    <h4 className="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
+                    <div className="experience__description">
+                      <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Durante el curso de Desarrollo de Software Orientado a Servicios se llevó a cabo un proyecto enfocado
+                        en la integración del API de un microservicio de pagos para la gestión de transacciones y generación de facturas. Para el desarrollo del backend, se emplearon tecnologías
+                        como Spring (Boot, MVC, JPA) para la creación y consumo de microservicios. Mientras tanto, en el frontend se utilizó un conjunto diverso de herramientas como React.js,
+                        Bootstrap, CSS, HTML5 y JavaScript. Como base de datos, se implementó MySQL para asegurar un almacenamiento eficiente y confiable de los datos.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -299,30 +222,136 @@ function App() {
         </div>
       </section>
 
+      <section id="educacion" className='pt-10'>
+        <div class="container mx-auto bg-white rounded-xl shadow-md overflow-hidden border border-gray-300 mt-20 mt-20">
+          <div class="bg-gray-50 px-4 py-2 border border-gray-300">
+            <div class="text-3xl font-bold flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-mortarboard mx-3" viewBox="0 0 16 16">
+                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+              </svg>
+              Educación
+            </div>
+          </div>
+          <div class="px-4 py-4">
+            <div class="flex items-center">
+              <a class="hidden md:flex me-2" href="http://www.oaxaca.tecnm.mx/">
+                <img src={logo} alt="Technological Institute Of Oaxaca" class="m-auto h-20 w-20" />
+              </a>
+              <div class="flex-grow">
+                <p class="text-blue-600 font-semibold">
+                  <b class="text-2xl text-blue-900 font-medium">Ingeniería en Sistemas Computacionales</b>
+                </p>
+                <span class="text-blue-600 font-semibold text-lg">
+                  Agosto 2018 - Diciembre 2023
+                </span>
+                <h4 class="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
+              </div>
+            </div>
+            <p class="mt-4 text-md mb-8 leading-relaxed text-gray-600 font-medium">
+              Mi formación se centra en Java como lenguaje principal, con
+              especialización en programación orientada a objetos, estructura de
+              datos y algoritmos entre otros. Además, he explorado patrones de
+              diseño para el desarrollo de software. Integré este conocimiento con
+              frameworks como Spring para aplicaciones Java empresariales, así como
+              con tecnologías modernas como React para el desarrollo frontend y
+              Node.js para el desarrollo de backend.
+            </p>
+            <div class="flex items-center mt-4">
+              <a class="hidden md:flex me-2" href="http://www.oaxaca.tecnm.mx/">
+                <img src={logo2} alt="Technological Institute Of Oaxaca" class="m-auto h-20 w-20" />
+              </a>
+              <div class="flex-grow">
+                <p class="text-blue-600 font-semibold">
+                  <b>Técnico en Ofimática</b>
+                </p>
+                <span class="text-blue-600 font-semibold text-lg">
+                  Agosto 2015 - Julio 2018
+                </span>
+                <p class="mb-0 text-xl text-gray-600 font-medium">
+                  @ Centro de Bachillerato Industrial y de Servicios 259
+                </p>
+              </div>
+            </div>
+            <p class="mt-4 text-md mb-8 leading-relaxed text-gray-600 font-medium">
+              A través de mi formación técnica en Ofimática, he desarrollado
+              habilidades sólidas en el manejo de paqueterías de office, bases de
+              datos, redes, algoritmos y pseudocódigo.
+            </p>
+          </div>
+        </div>
+      </section>
 
 
-      <footer className="footer">
-        <div className="container text-center py-5">
-          <h3 className="text-uppercase mb-4">¡Sígueme en redes sociales!</h3>
-          <ul className="social-networks">
-            <li>
-              <a className="snlnk" href="https://www.facebook.com/markos.nunnes.87">
-                <i className="fab fa-facebook-f"></i>
+
+      <footer className="bg-gray-50 text-gray-900 mt-20" id='contacto'>
+        <div className="container mx-auto py-10 px-5">
+          <div className="max-w-xl mx-auto">
+            <h2 className="text-4xl font-semibold mb-8 text-center">Contacto</h2>
+            <p className="mt-4 text-lg mb-8 leading-relaxed text-gray-600 font-medium text-center">
+              Si quieres ponerte en contacto conmigo, puedes hacerlo a través de mis redes sociales o vía correo electrónico.
+            </p>
+            <div className="flex mb-5 border-b pb-5">
+              <input
+                type="text"
+                value="robertocarlosrendonpelaez@gmail.com"
+                readOnly
+                className="flex-grow p-3 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-600 font-medium"
+              />
+              <button
+                onClick={() => {
+                  const input = document.querySelector('input[type="text"]');
+                  input.select();
+                  document.execCommand('copy');
+                }}
+                className="py-2 px-4 bg-indigo-600 text-white rounded-r-md hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-clipboard" viewBox="0 0 16 16">
+                  <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                  <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                </svg>
+              </button>
+            </div>
+
+            <div className="flex justify-center space-x-4 mb-5 border-b-4 pb-5">
+              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer noopener" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-linkedin w-4 h-4 mr-2" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+                LinkedIn
               </a>
-            </li>
-            <li>
-              <a className="snlnk" href="https://www.linkedin.com/in/marcos-nunes-de-souza-nipfhire">
-                <i className="fab fa-linkedin"></i>
+
+              <a href="https://github.com" target="_blank" rel="noreferrer noopener" className="bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-4 h-4 mr-2">
+                  <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.11.82-.258.82-.577 0-.284-.01-1.04-.015-2.042-3.338.724-4.042-1.61-4.042-1.61-.546-1.386-1.333-1.755-1.333-1.755-1.089-.745.083-.73.083-.73 1.205.085 1.838 1.235 1.838 1.235 1.07 1.835 2.807 1.304 3.495.998.108-.775.417-1.304.76-1.604-2.665-.305-5.466-1.332-5.466-5.93 0-1.31.465-2.383 1.235-3.223-.125-.307-.535-1.527.116-3.18 0 0 1.008-.324 3.3 1.233.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.29-1.557 3.297-1.233 3.297-1.233.655 1.653.245 2.873.12 3.18.765.84 1.23 1.913 1.23 3.223 0 4.61-2.805 5.622-5.475 5.92.43.372.815 1.102.815 2.22 0 1.605-.015 2.896-.015 3.287 0 .32.215.695.825.576 4.763-1.586 8.197-6.083 8.197-11.386 0-6.627-5.373-12-12-12" />
+                </svg>
+                GitHub
               </a>
-            </li>
-            <li>
-              <a className="snlnk" href="https://github.com/Robertofcg">
-                <i className="fab fa-github bg-dark"></i>
-              </a>
-            </li>
-          </ul>
+            </div>
+
+            <form className="space-y-4">
+              <div>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nombre</label>
+                <input type="text" id="name" name="name" className="mt-1 p-3 block w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Ingrese su nombre" />
+              </div>
+              <div>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700">Correo electrónico</label>
+                <input type="email" id="email" name="email" className="mt-1 p-3 block w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Ingrese su correo electrónico" />
+              </div>
+              <div>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-700">Mensaje</label>
+                <textarea id="message" name="message" rows="4" className="mt-1 p-3 block w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Ingrese su mensaje"></textarea>
+              </div>
+              <div>
+                <button type="submit" className="w-full py-3 px-6 border border-transparent rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Enviar mensaje</button>
+              </div>
+            </form>
+          </div>
         </div>
       </footer>
+
+
+
     </>
   );
 }
