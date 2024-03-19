@@ -284,7 +284,7 @@ function App() {
 
 
 
-      <footer className="bg-gray-50 text-gray-900 mt-20" id='contacto'>
+      <footer className="bg-gray-50 text-gray-900 pt-20 lg:pt-10 lg:mt-20" id='contacto'>
         <div className="container mx-auto py-10 px-5">
           <div className="max-w-xl mx-auto">
             <h2 className="text-4xl font-semibold mb-8 text-center">Contacto</h2>
