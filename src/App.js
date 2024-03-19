@@ -126,9 +126,9 @@ function App() {
         </div>
       </div>
 
-      <section id="home" className="text-gray-700 body-font items-center mb-20 lg:pt-24">
+      <section id="home" className="text-gray-700 body-font items-center mb-0 lg:pt-5">
         <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-5 lg:py-24" >
-          <div className="text-left lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col lg:items-start sm:text-center md:text-center lg:text-left  mb-16 md:mb-0 items-center text-center">
+          <div className="text-left lg:w-1/2 lg:pr-24 flex flex-col lg:items-start sm:text-center md:text-center lg:text-left  mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-gray-900">
               Hola<br />Soy Roberto<br />
               <span className='text-blue-900'>Full Stack Web Developer</span>
