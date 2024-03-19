@@ -9,16 +9,12 @@ function App() {
 
   return (
     <>
-      <div className="relative bg-white shadow">
+      <div className="bg-white shadow fixed w-full z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="/">
-                <img
-                  className="h-8 w-auto sm:h-10"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                  alt=""
-                />
+                <h1 className="text-2xl	 h-8 w-auto sm:h-10 font-medium text-gray-500 lg:text-4xl">Portafolio</h1>
               </a>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
@@ -28,9 +24,8 @@ function App() {
                 onClick={() => setOpen(!open)}
               >
                 <span className="sr-only">Open menu</span>
-                {/* Heroicon name: outline/menu */}
                 <svg
-                  className="h-6 w-6"
+                  className={`${open ? 'hidden' : 'block'} h-6 w-6`}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -44,170 +39,96 @@ function App() {
                     d="M4 6h16M4 12h16M4 18h16"
                   />
                 </svg>
+                <svg
+                  className={`${open ? 'block' : 'hidden'} h-6 w-6`}
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
               </button>
             </div>
             <nav className="hidden md:flex space-x-10">
-              <div className="relative">
-                {/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
-                <button
-                  type="button"
-                  className="
-                   group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pb-8'
-                  "
-                >
-                  <span>Solutions</span>
-                </button>
-              </div>
-
-              <a href="/" className="text-base font-medium text-gray-500 hover:text-blue-700">
-                Pricing
+              <a
+                href="/solutions"
+                className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
+              >
+                Inicio
               </a>
-              <a href="/" className="text-base font-medium text-gray-500 hover:text-blue-700">
-                Docs
+              <a
+                href="/pricing"
+                className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
+              >
+                Experiencia
+              </a>
+              <a
+                href="/docs"
+                className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
+              >
+                Eduación
               </a>
             </nav>
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
               <a
-                href="/"
+                href="/signin"
                 className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
               >
-              </a>
-              <a
-                href="/"
-
-              >
-
               </a>
             </div>
           </div>
         </div>
         <div
-          className={
-            open
-              ? "opacity-100 scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
-              : "opacity-0 scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
-          }
+          className={`${open ? 'block' : 'hidden'} md:hidden`}
         >
-          <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-            <div className="pt-5 pb-6 px-5">
-              <div className="flex items-center justify-between">
-                <div>
-                  <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                    alt="Workflow"
-                  />
-                </div>
-                <div className="-mr-2">
-                  <button
-                    type="button"
-                    className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-                    onClick={() => setOpen(!open)}
-                  >
-                    <span className="sr-only">Close menu</span>
-                    {/* Heroicon name: outline/x */}
-                    <svg
-                      className="h-6 w-6"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M6 18L18 6M6 6l12 12"
-                      />
-                    </svg>
-                  </button>
-                </div>
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a
+              href="/solutions"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
+            >
+              Solutions
+            </a>
+            <a
+              href="/pricing"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
+            >
+              Pricing
+            </a>
+            <a
+              href="/docs"
+              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
+            >
+              Docs
+            </a>
+          </div>
+          <div className="pt-4 pb-3 border-t border-gray-200">
+            <div className="flex items-center px-5">
+              <div className="ml-3">
+                <div className="text-base font-medium text-gray-800">Sign in</div>
               </div>
-              <div className="mt-6">
-                <nav className="grid gap-y-8">
-                  <a
-                    href="/"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                  >
-                    {/* Heroicon name: outline/chart-bar */}
-                    <svg
-                      className="flex-shrink-0 h-6 w-6 text-indigo-600"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                      />
-                    </svg>
-                    <span className="ml-3 text-base font-medium text-gray-900">
-                      Solutions
-                    </span>
-                  </a>
-                  <a
-                    href="/"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                  >
-                    {/* Heroicon name: outline/cursor-click */}
-                    <svg
-                      className="flex-shrink-0 h-6 w-6 text-indigo-600"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
-                      />
-                    </svg>
-                    <span className="ml-3 text-base font-medium text-gray-900">
-                      Pricing
-                    </span>
-                  </a>
-                  <a
-                    href="/"
-                    className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
-                  >
-                    {/* Heroicon name: outline/shield-check */}
-                    <svg
-                      className="flex-shrink-0 h-6 w-6 text-indigo-600"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                      />
-                    </svg>
-                    <span className="ml-3 text-base font-medium text-gray-900">
-                      Docs
-                    </span>
-                  </a>
-                </nav>
+              <div className="ml-3">
+                <a
+                  href="/signin"
+                  className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                >
+                  Sign up
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <section id="home" className="text-gray-700 body-font items-center">
-        <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-5 py-24">
-          <div className="text-left lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start sm:text-center md:text-center lg:text-left  mb-16 md:mb-0 items-center text-center">
+      <section id="home" className="text-gray-700 body-font items-center mb-20 lg:pt-24">
+        <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-5 lg:py-24" >
+          <div className="text-left lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col lg:items-start sm:text-center md:text-center lg:text-left  mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-2xl mb-4 font-medium text-gray-900">
               Hola<br />Soy Roberto<br />
               <span className='text-blue-900'>Full Stack Web Developer</span>
@@ -216,11 +137,25 @@ function App() {
               HTML/CSS | Bootstrap | JavaScript | React | Spring Framework | Node.js | Java
             </span>
             <p className="text-lg mb-8 leading-relaxed text-gray-600 font-medium">Egresado de la carrera de <strong>Ingeniería en Sistemas Computacionales</strong> con una pasión por la tecnología y el desarrollo de software. Soy de México del estado de Oaxaca. Me especializo en <strong>Tecnologías De Software Emergente</strong> y tengo <span className='text-blue-600'><strong>1+ año de experiencia</strong></span> en el campo.</p>
-            <div className="flex justify-center lg:pb-10">
-              <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Contact</button>
+            <div>
+              <div className="flex justify-center space-x-4">
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer noopener" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-linkedin w-4 h-4 mr-2" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                  </svg>
+                  LinkedIn
+                </a>
+
+                <a href="https://github.com" target="_blank" rel="noreferrer noopener" className="bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-4 h-4 mr-2">
+                    <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.11.82-.258.82-.577 0-.284-.01-1.04-.015-2.042-3.338.724-4.042-1.61-4.042-1.61-.546-1.386-1.333-1.755-1.333-1.755-1.089-.745.083-.73.083-.73 1.205.085 1.838 1.235 1.838 1.235 1.07 1.835 2.807 1.304 3.495.998.108-.775.417-1.304.76-1.604-2.665-.305-5.466-1.332-5.466-5.93 0-1.31.465-2.383 1.235-3.223-.125-.307-.535-1.527.116-3.18 0 0 1.008-.324 3.3 1.233.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.29-1.557 3.297-1.233 3.297-1.233.655 1.653.245 2.873.12 3.18.765.84 1.23 1.913 1.23 3.223 0 4.61-2.805 5.622-5.475 5.92.43.372.815 1.102.815 2.22 0 1.605-.015 2.896-.015 3.287 0 .32.215.695.825.576 4.763-1.586 8.197-6.083 8.197-11.386 0-6.627-5.373-12-12-12" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
             </div>
           </div>
-          <div className="lg:w-1/2 w-5/6 flex justify-center mb-10 lg:mb-0">
+          <div className="lg:w-1/2 w-5/6 flex justify-center mb-10 pt-24 lg:pb-24">
             <img src={profileImg} alt="Profile" className="rounded-full w-60 lg:w-80 shadow-lg" />
           </div>
         </div>
@@ -228,13 +163,13 @@ function App() {
 
       <section id="experiencia">
         <div className="container mx-auto px-5">
-          <h3 className="title-font sm:text-6xl text-4xl mb-4 font-medium text-gray-900 lg:py-20">Experiencia</h3>
+          <h3 className="title-font sm:text-6xl text-4xl mb-4 font-medium text-gray-900 lg:py-10">Experiencia</h3>
         </div>
 
         <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-5 py-10">
           <div className="relative grid gap-4 sm:grid-cols-12">
             <div className="col-span-12 sm:col-span-3">
-              <div className="text-center sm:text-left before:dark:from-sky-500 sticky top-5">
+              <div className="text-center sm:text-center before:dark:from-sky-500 sticky top-28">
                 <p className="text-lg mb-8 leading-relaxed text-gray-600 font-medium"> Puedes descargar el CV dando clic en el boton de abajo. </p>
                 <div className="flex justify-center">
                   <button className="mt-2 cv border-solid border-4 border-blue-900 text-blue-900 text-xl rounded p-3 hover:bg-blue-900 hover:text-white">
@@ -247,65 +182,27 @@ function App() {
             </div>
             <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
               <div className="col-span-12 relative px-4 sm:col-span-8 before:absolute before:top-[5px] before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-300 dark:before:bg-gray-700">
-                <div className="flex flex-col relative before:absolute before:top-[5px] before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-sky-800 before:dark:bg-sky-500 pb-8">
-                  <h3 className="experience__title"> Desarrollador Full Stack </h3>
-                  <time className="experience__time"> Enero 2023 - Diciembre 2023 </time>
-                  <h4 className="experience__company"> @ Instituto tecnológico de Oaxaca </h4>
+                <div className="flex flex-col relative before:absolute before:top-[5px] before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-sky-800 before:dark:bg-sky-500">
+                  <h3 className="text-2xl text-blue-900 font-medium"> Desarrollador Full Stack</h3>
+                  <time className="text-blue-600"> Enero 2023 - Diciembre 2023 </time>
+                  <h4 className="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
                   <div className="experience__description">
-                    <p> For the last <strong className="experience__description--highlight">3</strong> months, I've been working as a Full-Stack developer for the Systems and Computing department, contributing to the development of an institutional system intended to manage the academic and administrative processes of the institute. My main responsibilities include: </p>
-                    <ul className="list-disc list-inside">
-                      <li>Analyzing administrative processes and identifying areas for improvement.</li>
-                      <li>Designing and maintaining server-side logic using <strong className="experience__description--highlight">Typescript</strong>, <strong className="experience__description--highlight">Next.js</strong> and <strong className="experience__description--highlight">Nest.js</strong>. </li>
-                      <li>Collaborating with other developers and stakeholders.</li>
-                    </ul>
+                    <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Proyecto de residencia profesional enfocado en el desarrollo de una aplicación web utilizando HTML, CSS,
+                      JavaScript y el framework Django y Spring. Se implementaron Redes Neuronales Convolucionales para la detección de un tipo específico de cubrebocas, con el propósito de
+                      determinar su nivel de protección y ofrecer recomendaciones pertinentes, en beneficio de la Escuela Primaria "Melchor Ocampo" en San Martín Mexicapan, Oaxaca.</p>
                   </div>
                 </div>
-                <div className="flex flex-col relative before:absolute before:top-[5px] before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-sky-800 before:dark:bg-sky-500 pb-8">
-                  <h3 className="experience__title"> Full Stack Developer Intern </h3>
-                  <time className="experience__time"> May 2022 - Jul 2023 </time>
-                  <h4 className="experience__company"> @ Technological Institute of Oaxaca </h4>
+                <div className="flex flex-col relative before:absolute before:top-[5px] before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-sky-800 before:dark:bg-sky-500">
+                  <h3 className="text-2xl text-blue-900 font-medium">Desarrollador Full Stack en Microservicio de Facturación</h3>
+                  <time className="text-blue-600"> Enero 2023 - Diciembre 2023 </time>
+                  <h4 className="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
                   <div className="experience__description">
-                    <p> In this job I was responsible for the development of a web application for the management of the company's HR department. My tasks included: </p>
-                    <ul className="list-disc list-inside">
-                      <li>Meeting with the HR department to gather requirements.</li>
-                      <li>Designing the database schema.</li>
-                      <li>Analysing vulnerabilities and implementing security measures.</li>
-                    </ul>
-                    <p> As a result of my work, I: </p>
-                    <ul className="list-disc list-inside">
-                      <li><strong className="experience__description--highlight"> Optimized report generation times by 90% </strong></li>
-                      <li>Developed a fully functional HRMS (Human Resources Management System) using <strong className="experience__description--highlight">Spring Boot</strong> for the backend and <strong className="experience__description--highlight">Vue.js</strong> for the frontend. </li>
-                      <li>Successfully deployed and maintained the HRMS hosted at <a href="https://itoaxaca.tech" target="_blank" rel="noreferrer" className="underline">https://itoaxaca.tech/</a></li>
-                    </ul>
+                    <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Durante el curso de Desarrollo de Software Orientado a Servicios se llevó a cabo un proyecto enfocado
+                      en la integración del API de un microservicio de pagos para la gestión de transacciones y generación de facturas. Para el desarrollo del backend, se emplearon tecnologías
+                      como Spring (Boot, MVC, JPA) para la creación y consumo de microservicios. Mientras tanto, en el frontend se utilizó un conjunto diverso de herramientas como React.js,
+                      Bootstrap, CSS, HTML5 y JavaScript. Como base de datos, se implementó MySQL para asegurar un almacenamiento eficiente y confiable de los datos.</p>
                   </div>
                 </div>
-                <div className="">
-                  <div className="duration-500 transition-all overflow-y-hidden h-[0px]">
-                    <h3 className="experience__title"> Touristic Ambassador </h3>
-                    <time className="experience__time">Jun 2019 - Aug 2019</time>
-                    <h4 className="experience__company"> @ SECTUR Oaxaca </h4>
-                    <div className="experience__description">
-                      <p> Worked as Touristic Ambassador for the <a href="https://www.oaxaca.gob.mx/ageo/la-guelaguetza/" className="underline">Guelaguetza</a> 2019. Some of the tasks I was involved in included: </p>
-                      <ul className="list-disc list-inside">
-                        <li>Multilingual Communication: Facilitating communication between visitors and locals, acting as an interpreter when necessary</li>
-                        <li>Logistics and Organization: Planning and coordinating activities and ensuring logistical details.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <button data-v-c21e6762="" className="glass-button h-[45px] min-w-[45px] text-base" title="">
-                  <span data-v-c21e6762="" className="glass-button__content text-white px-3 space-x-2">
-                    <span data-v-c21e6762="" className="flex [&amp;>svg]:my-auto [&amp;>svg]:inline [&amp;>svg]:h-5 [&amp;>svg]:w-5">
-                      <svg viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 5l0 14"></path>
-                        <path d="M5 12l14 0"></path>
-                      </svg>
-                    </span>
-                    <span data-v-c21e6762="" className="m-auto">Show more</span>
-                  </span>
-                  <span data-v-c21e6762="" className="glass-button__bg bg-neutral-500"></span>
-                </button>
               </div>
             </div>
           </div>
