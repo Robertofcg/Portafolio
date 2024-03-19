@@ -70,13 +70,13 @@ function App() {
                 Experiencia
               </a>
               <a
-                href="/#educacion"
+                href="#educacion"
                 className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
               >
                 Eduación
               </a>
               <a
-                href="/#contacto"
+                href="#contacto"
                 className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
               >
                 Contacto
@@ -96,25 +96,25 @@ function App() {
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-              href="/#home"
+              href="#home"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
             >
               Inicio
             </a>
             <a
-              href="/#experiencia"
+              href="#experiencia"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
             >
               Experiencia
             </a>
             <a
-              href="/#educacion"
+              href="#educacion"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
             >
               Eduación
             </a>
             <a
-              href="/#contacto"
+              href="#contacto"
               className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-900"
             >
               Contacto
