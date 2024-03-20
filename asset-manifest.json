@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.5f07b61a.css",
-    "main.js": "/Portafolio/static/js/main.59254039.js",
+    "main.css": "/Portafolio/static/css/main.e2228884.css",
+    "main.js": "/Portafolio/static/js/main.feeb2a65.js",
     "static/js/453.d85580f4.chunk.js": "/Portafolio/static/js/453.d85580f4.chunk.js",
     "static/media/logo_plantel.png": "/Portafolio/static/media/logo_plantel.5eb156821651847d0adc.png",
     "static/media/logo.png": "/Portafolio/static/media/logo.18634f58020450d16ae5.png",
@@ -11,12 +11,12 @@
     "static/media/acreditacionBrasil.jpeg": "/Portafolio/static/media/acreditacionBrasil.cf778903c5719e80fe60.jpeg",
     "static/media/acreditacionSonora.jpeg": "/Portafolio/static/media/acreditacionSonora.a0b0159ec0add8176aca.jpeg",
     "index.html": "/Portafolio/index.html",
-    "main.5f07b61a.css.map": "/Portafolio/static/css/main.5f07b61a.css.map",
-    "main.59254039.js.map": "/Portafolio/static/js/main.59254039.js.map",
+    "main.e2228884.css.map": "/Portafolio/static/css/main.e2228884.css.map",
+    "main.feeb2a65.js.map": "/Portafolio/static/js/main.feeb2a65.js.map",
     "453.d85580f4.chunk.js.map": "/Portafolio/static/js/453.d85580f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f07b61a.css",
-    "static/js/main.59254039.js"
+    "static/css/main.e2228884.css",
+    "static/js/main.feeb2a65.js"
   ]
 }
