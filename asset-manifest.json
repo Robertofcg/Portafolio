@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.b356c900.css",
-    "main.js": "/Portafolio/static/js/main.abfa22a7.js",
+    "main.css": "/Portafolio/static/css/main.5f07b61a.css",
+    "main.js": "/Portafolio/static/js/main.9cc81ce1.js",
     "static/js/453.d85580f4.chunk.js": "/Portafolio/static/js/453.d85580f4.chunk.js",
     "static/media/logo_plantel.png": "/Portafolio/static/media/logo_plantel.5eb156821651847d0adc.png",
     "static/media/logo.png": "/Portafolio/static/media/logo.18634f58020450d16ae5.png",
+    "static/media/sonora.jpeg": "/Portafolio/static/media/sonora.20264a20dbc2d2c38165.jpeg",
+    "static/media/estatal.jpeg": "/Portafolio/static/media/estatal.28af7b258a9741ec54eb.jpeg",
     "static/media/perfil.jpg": "/Portafolio/static/media/perfil.7bb16c8289305a664785.jpg",
+    "static/media/acreditacionBrasil.jpeg": "/Portafolio/static/media/acreditacionBrasil.cf778903c5719e80fe60.jpeg",
+    "static/media/acreditacionSonora.jpeg": "/Portafolio/static/media/acreditacionSonora.a0b0159ec0add8176aca.jpeg",
     "index.html": "/Portafolio/index.html",
-    "main.b356c900.css.map": "/Portafolio/static/css/main.b356c900.css.map",
-    "main.abfa22a7.js.map": "/Portafolio/static/js/main.abfa22a7.js.map",
+    "main.5f07b61a.css.map": "/Portafolio/static/css/main.5f07b61a.css.map",
+    "main.9cc81ce1.js.map": "/Portafolio/static/js/main.9cc81ce1.js.map",
     "453.d85580f4.chunk.js.map": "/Portafolio/static/js/453.d85580f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b356c900.css",
-    "static/js/main.abfa22a7.js"
+    "static/css/main.5f07b61a.css",
+    "static/js/main.9cc81ce1.js"
   ]
 }
