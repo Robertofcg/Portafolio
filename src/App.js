@@ -352,7 +352,7 @@ function App() {
                     </a>
                   </header>
                   <div className="mb-8 text-md mb-8 leading-relaxed text-gray-600 font-medium">
-                    <p>Participante en ExpoCiencias Nacional Sonora 2023, participando con el proyecto mencionado representado al "Instituto Tecnológico de Oaxaca".</p>
+                    <p>Participante en ExpoCiencias Nacional Sonora 2023, participando con el proyecto antes mencionado representado al "Instituto Tecnológico de Oaxaca".</p>
                   </div>
                 </div>
               </div>
@@ -369,7 +369,7 @@ function App() {
                     </a>
                   </header>
                   <div className="mb-8 text-md mb-8 leading-relaxed text-gray-600 font-medium">
-                    <p>Ganador de una acreditacion en la categoria de Computacion y Software para participar con el proyecto en "ExpoCiencias MILSET Brasil 2024".</p>
+                    <p>Ganador de una acreditacion en la categoria de Computacion y Software para participar con el proyecto antes mencionado en "ExpoCiencias MILSET Brasil 2024", representado a México</p>
                   </div>
                 </div>
               </div>
