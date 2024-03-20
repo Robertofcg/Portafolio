@@ -3,6 +3,10 @@ import React from 'react';
 import profileImg from './perfil.jpg';
 import logo from './logo.png';
 import logo2 from './logo_plantel.png';
+import estatal from './estatal.jpeg';
+import acreditacionSonora from './acreditacionSonora.jpeg';
+import ParticipacionSonora from './sonora.jpeg';
+import acreditacionBrasil from './acreditacionBrasil.jpeg';
 
 function App() {
   const [open, setOpen] = React.useState(false);
@@ -74,6 +78,12 @@ function App() {
                 className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
               >
                 Eduación
+              </a>
+              <a
+                href="#reconocimientos"
+                className="text-base text-lg font-medium text-gray-500 hover:text-blue-700"
+              >
+                Reconocimientos
               </a>
               <a
                 href="#contacto"
@@ -178,7 +188,7 @@ function App() {
           <div className="container mx-auto px-5 pt-24 lg:pt-14">
             <h3 className="title-font sm:text-6xl text-4xl font-medium text-gray-900 lg:py-10">Experiencia</h3>
           </div>
-          <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-5">
+          <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-5 pt-10">
             <div className="relative grid gap-4 sm:grid-cols-12">
               <div className="col-span-12 sm:col-span-3">
                 <div className="text-center sm:text-center before:dark:from-sky-500 sticky top-28">
@@ -223,32 +233,32 @@ function App() {
       </section>
 
       <section id="educacion" className='pt-10'>
-        <div class="container mx-auto bg-white rounded-xl shadow-md overflow-hidden border border-gray-300 mt-20 mt-20">
-          <div class="bg-gray-50 px-4 py-2 border border-gray-300">
-            <div class="text-3xl font-bold flex items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-mortarboard mx-3" viewBox="0 0 16 16">
+        <div className="container mx-auto bg-white rounded-xl shadow-md overflow-hidden border border-gray-300 mt-20 mt-20">
+          <div className="bg-gray-50 px-4 py-2 border border-gray-300">
+            <div className="text-3xl font-bold flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-mortarboard mx-3" viewBox="0 0 16 16">
                 <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
                 <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
               </svg>
               Educación
             </div>
           </div>
-          <div class="px-4 py-4">
-            <div class="flex items-center">
-              <a class="hidden md:flex me-2" href="http://www.oaxaca.tecnm.mx/">
-                <img src={logo} alt="Technological Institute Of Oaxaca" class="m-auto h-20 w-20" />
+          <div className="px-4 py-4">
+            <div className="flex items-center">
+              <a className="hidden md:flex me-2" href="http://www.oaxaca.tecnm.mx/">
+                <img src={logo} alt="Technological Institute Of Oaxaca" className="m-auto h-20 w-20" />
               </a>
-              <div class="flex-grow">
-                <p class="text-blue-600 font-semibold">
-                  <b class="text-2xl text-blue-900 font-medium">Ingeniería en Sistemas Computacionales</b>
+              <div className="flex-grow">
+                <p className="text-blue-600 font-semibold">
+                  <b className="text-2xl text-blue-900 font-medium">Ingeniería en Sistemas Computacionales</b>
                 </p>
-                <span class="text-blue-600 font-semibold text-lg">
+                <span className="text-blue-600 font-semibold text-lg">
                   Agosto 2018 - Diciembre 2023
                 </span>
-                <h4 class="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
+                <h4 className="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
               </div>
             </div>
-            <p class="mt-4 text-md mb-8 leading-relaxed text-gray-600 font-medium">
+            <p className="mt-4 text-md mb-8 leading-relaxed text-gray-600 font-medium">
               Mi formación se centra en Java como lenguaje principal, con
               especialización en programación orientada a objetos, estructura de
               datos y algoritmos entre otros. Además, he explorado patrones de
@@ -257,23 +267,23 @@ function App() {
               con tecnologías modernas como React para el desarrollo frontend y
               Node.js para el desarrollo de backend.
             </p>
-            <div class="flex items-center mt-4">
-              <a class="hidden md:flex me-2" href="http://www.oaxaca.tecnm.mx/">
-                <img src={logo2} alt="Technological Institute Of Oaxaca" class="m-auto h-20 w-20" />
+            <div className="flex items-center mt-4">
+              <a className="hidden md:flex me-2" href="http://www.oaxaca.tecnm.mx/">
+                <img src={logo2} alt="Technological Institute Of Oaxaca" className="m-auto h-20 w-20" />
               </a>
-              <div class="flex-grow">
-                <p class="text-blue-600 font-semibold">
+              <div className="flex-grow">
+                <p className="text-blue-600 font-semibold">
                   <b>Técnico en Ofimática</b>
                 </p>
-                <span class="text-blue-600 font-semibold text-lg">
+                <span className="text-blue-600 font-semibold text-lg">
                   Agosto 2015 - Julio 2018
                 </span>
-                <p class="mb-0 text-xl text-gray-600 font-medium">
-                  @ Centro de Bachillerato Industrial y de Servicios 259
+                <p className="mb-0 text-xl text-gray-600 font-medium">
+                  @ Centro de Bachillerato Tecnlógico Industrial y de Servicios no. 259
                 </p>
               </div>
             </div>
-            <p class="mt-4 text-md mb-8 leading-relaxed text-gray-600 font-medium">
+            <p className="mt-4 text-md mb-8 leading-relaxed text-gray-600 font-medium">
               A través de mi formación técnica en Ofimática, he desarrollado
               habilidades sólidas en el manejo de paqueterías de office, bases de
               datos, redes, algoritmos y pseudocódigo.
@@ -282,9 +292,98 @@ function App() {
         </div>
       </section>
 
+      <section id="reconocimientos" className='pt-10'>
+        <div className="container mx-auto bg-white rounded-xl shadow-md overflow-hidden border border-gray-300 mt-20 mt-20">
+          <div className="bg-gray-50 px-4 py-2 border border-gray-300">
+            <div className="text-3xl font-bold flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-mortarboard mx-3" viewBox="0 0 16 16">
+                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+              </svg>
+              Reconocimientos y premios
+            </div>
+          </div>
+          <div className="px-4 py-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <div className="max-w-xs mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+                <a className="block focus:outline-none focus-visible:ring-2" href="#0">
+                  <figure className="relative h-0 pb-[56.25%] overflow-hidden">
+                    <img className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out" src={estatal} width="320" height="180" alt="Course" />
+                  </figure>
+                </a>
+                <div className="flex flex-col p-5">
+                  <header className="mb-3">
+                    <a className="block focus:outline-none focus-visible:ring-2" href="#0">
+                      <h3 className="text-[22px] text-gray-900 font-extrabold leading-snug">Participante Regional y Estatal ExpoCiencias Oaxaca 2023</h3>
+                    </a>
+                  </header>
+                  <div className="mb-8 text-md mb-8 leading-relaxed text-gray-600 font-medium">
+                    <p>Presentación del proyecto "Red Neuronal Artificial para Determinar el Nivel de Protección en el Uso de Cubrebocas".</p>
+                  </div>
+                </div>
+              </div>
+              <div className="max-w-xs mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+                <a className="block focus:outline-none focus-visible:ring-2" href="#0">
+                  <figure className="relative h-0 pb-[56.25%] overflow-hidden">
+                    <img className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out" src={acreditacionSonora} width="320" height="180" alt="Course" />
+                  </figure>
+                </a>
+                <div className="flex flex-col p-5">
+                  <header className="mb-3">
+                    <a className="block focus:outline-none focus-visible:ring-2" href="#0">
+                      <h3 className="text-[22px] text-gray-900 font-extrabold leading-snug">Ganador de 2° Lugar y Acreditación ExpoCiencias Nacional Sonora 2023</h3>
+                    </a>
+                  </header>
+                  <div className="mb-8 text-md mb-8 leading-relaxed text-gray-600 font-medium">
+                    <p>Ganador del 2° lugar en la categoria de Computacion y Software con una acreditacion para participar con el proyecto en "ExpoCiencias Nacional Sonora 2023"</p>
+                  </div>
+                </div>
+              </div>
+              <div className="max-w-xs mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+                <a className="block focus:outline-none focus-visible:ring-2" href="#0">
+                  <figure className="relative h-0 pb-[56.25%] overflow-hidden">
+                    <img className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out" src={ParticipacionSonora} width="320" height="180" alt="Course" />
+                  </figure>
+                </a>
+                <div className="flex flex-col p-5">
+                  <header className="mb-3">
+                    <a className="block focus:outline-none focus-visible:ring-2" href="#0">
+                      <h3 className="text-[22px] text-gray-900 font-extrabold leading-snug">Participante ExpoCiencias Nacional Sonora 2023</h3>
+                    </a>
+                  </header>
+                  <div className="mb-8 text-md mb-8 leading-relaxed text-gray-600 font-medium">
+                    <p>Participante en ExpoCiencias Nacional Sonora 2023, participando con el proyecto mencionado representado al "Instituto Tecnológico de Oaxaca".</p>
+                  </div>
+                </div>
+              </div>
+              <div className="max-w-xs mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+                <a className="block focus:outline-none focus-visible:ring-2" href="#0">
+                  <figure className="relative h-0 pb-[56.25%] overflow-hidden">
+                    <img className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out" src={acreditacionBrasil} width="320" height="180" alt="Course" />
+                  </figure>
+                </a>
+                <div className="flex flex-col p-5">
+                  <header className="mb-3">
+                    <a className="block focus:outline-none focus-visible:ring-2" href="#0">
+                      <h3 className="text-[22px] text-gray-900 font-extrabold leading-snug">Acreditación ExpoCiencias MILSET Brasil 2024</h3>
+                    </a>
+                  </header>
+                  <div className="mb-8 text-md mb-8 leading-relaxed text-gray-600 font-medium">
+                    <p>Ganador de una acreditacion en la categoria de Computacion y Software para participar con el proyecto en "ExpoCiencias MILSET Brasil 2024".</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="container mx-auto antialiased text-gray-600 p-4">
+
+      </section>
 
 
-      <footer className="bg-gray-50 text-gray-900 pt-20 lg:pt-10 lg:mt-20" id='contacto'>
+      <footer className="bg-gray-50 text-gray-900 pt-20 mt-10 " id='contacto'>
         <div className="container mx-auto py-10 px-5">
           <div className="max-w-xl mx-auto">
             <h2 className="text-4xl font-semibold mb-8 text-center">Contacto</h2>
@@ -349,9 +448,6 @@ function App() {
           </div>
         </div>
       </footer>
-
-
-
     </>
   );
 }
