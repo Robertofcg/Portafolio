@@ -8,7 +8,9 @@ import acreditacionSonora from './acreditacionSonora.jpeg';
 import ParticipacionSonora from './sonora.jpeg';
 import acreditacionBrasil from './acreditacionBrasil.jpeg';
 import CNN from './CNN2.jpeg';
-
+import punto from './punto.PNG';
+import ICA from './ICA.webp';
+import factura from './facturacion.jpg';
 
 function App() {
   const [open, setOpen] = React.useState(false);
@@ -154,7 +156,7 @@ function App() {
               href="#proyectos"
               className="flex items-center text-md lg:text-lg font-medium text-gray-500 hover:text-blue-700"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className='mx-2' viewBox="0 0 512 512"> <path d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className='mx-2' viewBox="0 0 512 512"> <path d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z" /></svg>
               Proyectos
             </a>
             <a
@@ -352,7 +354,7 @@ function App() {
 
         <div className="container mx-auto flex flex-col lg:flex-row items-center mt-10">
           <div className="lg:w-1/4 md:w-3/4 sm:w-4/5">
-            <a href='https://github.com/Robertofcg/MicroservicioFacturacion.git'>
+            <a href='https://drive.google.com/file/d/1BqYqA6WpdSpTAXxQK5_Hplup_R7JRCRH/view?usp=sharing'>
               <img src={CNN} alt="Profile" className="rounded-lg shadow-lg" />
             </a>
           </div>
@@ -396,7 +398,7 @@ function App() {
         <div className="container mx-auto flex flex-col lg:flex-row items-center mt-10">
           <div className="lg:w-1/4 md:w-3/4 sm:w-4/5">
             <a href='https://github.com/Robertofcg/MicroservicioFacturacion.git'>
-              <img src={estatal} alt="Profile" className="rounded-lg shadow-lg" />
+              <img src={factura} alt="Profile" className="rounded-lg shadow-lg" />
             </a>
           </div>
 
@@ -440,6 +442,89 @@ function App() {
               </div>
               <div className="experience__description">
                 <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Durante el curso de Desarrollo de Software Orientado a Servicios se llevó a cabo un proyecto enfocado en la integración del API de un microservicio de pagos para la gestión de transacciones y generación de facturas. Para el desarrollo del backend, se emplearon tecnologías como Spring (Boot, MVC, JPA) para la creación y consumo de microservicios. Mientras tanto, en el frontend se utilizó un conjunto diverso de herramientas como React.js, Bootstrap, CSS, HTML5 y JavaScript. Como base de datos, se implementó MySQL para asegurar un almacenamiento eficiente y confiable de los datos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container mx-auto flex flex-col lg:flex-row items-center mt-10">
+          <div className="lg:w-1/4 md:w-3/4 sm:w-4/5">
+            <a href='https://github.com/Robertofcg/PuntodeVenta'>
+              <img src={punto} alt="Profile" className="rounded-lg shadow-lg" />
+            </a>
+          </div>
+
+          <div className="lg:w-3/4 mt-6 lg:mt-0 lg:pl-8">
+            <div className="space-y-6">
+              <h3 className="text-2xl text-blue-900 font-medium">Punto de Venta</h3>
+              <div className="grid grid-cols-3 md:grid-cols-6 gap-6 lg:gap-x-6 gap-y-2">
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Laravel</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Php</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Bootstrap</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">JavaScript</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">MySQL</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">HTML5</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">CSS</h4>
+                </div>
+              </div>
+              <div className="experience__description">
+                <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Sistema de Punto de Venta para satisfacer las necesidades de una ferretería. Permite gestionar inventario, registrar ventas y ofrece una introducción práctica a la administración de negocios utilizando tecnologías como Laravel, PHP, Bootstrap y más.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container mx-auto flex flex-col lg:flex-row items-center mt-10">
+          <div className="lg:w-1/4 md:w-3/4 sm:w-4/5">
+            <a href='https://github.com/Robertofcg/ICA'>
+              <img src={ICA} alt="Profile" className="rounded-lg shadow-lg" />
+            </a>
+          </div>
+
+          <div className="lg:w-3/4 mt-6 lg:mt-0 lg:pl-8">
+            <div className="space-y-6">
+              <h3 className="text-2xl text-blue-900 font-medium">Calcular ICA (Indice Cintura Altura)</h3>
+              <div className="grid grid-cols-3 md:grid-cols-6 gap-6 lg:gap-x-6 gap-y-2">
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Spring boot</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Java</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">MySQL</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Hibernate</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">JPA</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Tomcat</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">JDBC</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Maven</h4>
+                </div>
+              </div>
+              <div className="experience__description">
+                <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Proyecto desarrollado con el objetivo de crear una API para el registro de usuarios, facilitando el cálculo del Índice de Cintura Altura, así como la realización de consultas generales y personalizadas mediante un número de control proporcionado.</p>
               </div>
             </div>
           </div>
@@ -517,71 +602,52 @@ function App() {
       </section>
 
       <footer className="bg-gray-50 text-gray-900 pt-10 py-10 mt-10 px-5" id='contacto'>
-        <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 lg:grid-cols-2 gap-2">
+        <div class="container mx-auto">
           <div className='lg:mr-10'>
             <div className="mx-5 mx-auto">
               <h2 className="text-4xl font-semibold mb-8 text-center md:text-left lg:text-left">Contacto</h2>
               <p className="mt-4 text-lg mb-8 leading-relaxed text-gray-600 font-medium text-center md:text-left lg:text-left">
                 Si quieres ponerte en contacto conmigo, puedes hacerlo a través de mis redes sociales o vía correo electrónico.
               </p>
-              <div className="flex mb-5 border-b pb-5">
-                <input
-                  type="text"
-                  value="robertocarlosrendonpelaez@gmail.com"
-                  readOnly
-                  className="flex-grow p-3 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-600 font-medium"
-                />
-                <button
-                  onClick={() => {
-                    const input = document.querySelector('input[type="text"]');
-                    input.select();
-                    document.execCommand('copy');
-                  }}
-                  className="py-2 px-4 bg-indigo-600 text-white rounded-r-md hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-clipboard" viewBox="0 0 16 16">
-                    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
-                    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
-                  </svg>
-                </button>
-              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="col-span-2 flex mb-5 border-b pb-5">
+                  <input
+                    type="text"
+                    value="robertocarlosrendonpelaez@gmail.com"
+                    readOnly
+                    className="flex-grow p-3 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-600 font-medium"
+                  />
+                  <button
+                    onClick={() => {
+                      const input = document.querySelector('input[type="text"]');
+                      input.select();
+                      document.execCommand('copy');
+                    }}
+                    className="py-2 px-4 bg-indigo-600 text-white rounded-r-md hover:bg-indigo-700 focus:outline-none focus:bg-indigo-700"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-clipboard" viewBox="0 0 16 16">
+                      <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                      <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                    </svg>
+                  </button>
+                </div>
+                <div className="flex justify-center space-x-4 mb-5 border-b pb-5">
+                  <a href="https://www.linkedin.com/in/roberto-carlos-rend%C3%B3n-pel%C3%A1ez-39262b2aa/" target="_blank" rel="noreferrer noopener" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-linkedin w-4 h-4 mr-2" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                    </svg>
+                    LinkedIn
+                  </a>
 
-              <div className="flex justify-center space-x-4 mb-5 border-b-4 pb-5">
-                <a href="https://www.linkedin.com/in/roberto-carlos-rend%C3%B3n-pel%C3%A1ez-39262b2aa/" target="_blank" rel="noreferrer noopener" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-linkedin w-4 h-4 mr-2" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-                  </svg>
-                  LinkedIn
-                </a>
-
-                <a href="https://github.com/Robertofcg" target="_blank" rel="noreferrer noopener" className="bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded inline-flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-4 h-4 mr-2">
-                    <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.11.82-.258.82-.577 0-.284-.01-1.04-.015-2.042-3.338.724-4.042-1.61-4.042-1.61-.546-1.386-1.333-1.755-1.333-1.755-1.089-.745.083-.73.083-.73 1.205.085 1.838 1.235 1.838 1.235 1.07 1.835 2.807 1.304 3.495.998.108-.775.417-1.304.76-1.604-2.665-.305-5.466-1.332-5.466-5.93 0-1.31.465-2.383 1.235-3.223-.125-.307-.535-1.527.116-3.18 0 0 1.008-.324 3.3 1.233.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.29-1.557 3.297-1.233 3.297-1.233.655 1.653.245 2.873.12 3.18.765.84 1.23 1.913 1.23 3.223 0 4.61-2.805 5.622-5.475 5.92.43.372.815 1.102.815 2.22 0 1.605-.015 2.896-.015 3.287 0 .32.215.695.825.576 4.763-1.586 8.197-6.083 8.197-11.386 0-6.627-5.373-12-12-12" />
-                  </svg>
-                  GitHub
-                </a>
+                  <a href="https://github.com/Robertofcg" target="_blank" rel="noreferrer noopener" className="bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-4 h-4 mr-2">
+                      <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.11.82-.258.82-.577 0-.284-.01-1.04-.015-2.042-3.338.724-4.042-1.61-4.042-1.61-.546-1.386-1.333-1.755-1.333-1.755-1.089-.745.083-.73.083-.73 1.205.085 1.838 1.235 1.838 1.235 1.07 1.835 2.807 1.304 3.495.998.108-.775.417-1.304.76-1.604-2.665-.305-5.466-1.332-5.466-5.93 0-1.31.465-2.383 1.235-3.223-.125-.307-.535-1.527.116-3.18 0 0 1.008-.324 3.3 1.233.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.29-1.557 3.297-1.233 3.297-1.233.655 1.653.245 2.873.12 3.18.765.84 1.23 1.913 1.23 3.223 0 4.61-2.805 5.622-5.475 5.92.43.372.815 1.102.815 2.22 0 1.605-.015 2.896-.015 3.287 0 .32.215.695.825.576 4.763-1.586 8.197-6.083 8.197-11.386 0-6.627-5.373-12-12-12" />
+                    </svg>
+                    GitHub
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div className='lg:ml-10'>
-            <form className="space-y-4 mx-5 mx-auto">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nombre</label>
-                <input type="text" id="name" name="name" className="mt-1 p-3 block w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Ingrese su nombre" />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700">Correo electrónico</label>
-                <input type="email" id="email" name="email" className="mt-1 p-3 block w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Ingrese su correo electrónico" />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700">Mensaje</label>
-                <textarea id="message" name="message" rows="4" className="mt-1 p-3 block w-full border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Ingrese su mensaje"></textarea>
-              </div>
-              <div>
-                <button type="submit" className="w-full py-3 px-6 border border-transparent rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Enviar mensaje</button>
-              </div>
-            </form>
           </div>
         </div>
       </footer>
