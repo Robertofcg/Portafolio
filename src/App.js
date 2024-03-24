@@ -370,10 +370,16 @@ function App() {
                   <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Spring boot</h4>
                 </div>
                 <div className="col-span-1">
-                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">React.js</h4>
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Django</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">JavaScript</h4>
                 </div>
                 <div className="col-span-1">
                   <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">MySQL</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Tomcat</h4>
                 </div>
                 <div className="col-span-1">
                   <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Bootstrap</h4>
@@ -389,6 +395,9 @@ function App() {
                 </div>
                 <div className="col-span-1">
                   <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Maven</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">CNN</h4>
                 </div>
               </div>
               <div className="experience__description">
@@ -416,13 +425,13 @@ function App() {
                   <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">React.js</h4>
                 </div>
                 <div className="col-span-1">
-                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Django</h4>
-                </div>
-                <div className="col-span-1">
                   <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">JavaScript</h4>
                 </div>
                 <div className="col-span-1">
                   <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">MySQL</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Tomcat</h4>
                 </div>
                 <div className="col-span-1">
                   <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Bootstrap</h4>
@@ -438,10 +447,7 @@ function App() {
                 </div>
                 <div className="col-span-1">
                   <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Maven</h4>
-                </div>
-                <div className="col-span-1">
-                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">CNN</h4>
-                </div>
+                </div>                
               </div>
               <div className="experience__description">
                 <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Durante el curso de Desarrollo de Software Orientado a Servicios se llevó a cabo un proyecto enfocado en la integración del API de un microservicio de pagos para la gestión de transacciones y generación de facturas. Para el desarrollo del backend, se emplearon tecnologías como Spring (Boot, MVC, JPA) para la creación y consumo de microservicios. Mientras tanto, en el frontend se utilizó un conjunto diverso de herramientas como React.js, Bootstrap, CSS, HTML5 y JavaScript. Como base de datos, se implementó MySQL para asegurar un almacenamiento eficiente y confiable de los datos.</p>
