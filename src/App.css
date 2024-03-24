@@ -3,3 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
+#experiencia, #proyectos, #reconocimientos,#reconocimientos,#educacion,#contacto {
+  scroll-margin-top: 120px;
+}
