@@ -211,7 +211,10 @@ function App() {
             <span className="text-xl group rounded-md text-gray-500 inline-flex items-center text-base font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pb-8">
               HTML/CSS | JavaScript | Bootstrap | React | Spring Framework | Node.js | Java | Django
             </span>
-            <p className="text-md lg:text-lg mb-8 leading-relaxed text-gray-600 font-medium"><strong>Ingeniero en Sistemas Computacionales</strong> con una pasión por la tecnología y el desarrollo de software. Soy de México del estado de Oaxaca. Me especializo en <strong>Tecnologías De Software Emergente</strong> y tengo <span className='text-blue-600'><strong>1+ año de experiencia</strong></span> en el campo.</p>
+            <p className="text-md lg:text-lg leading-relaxed text-gray-600 font-medium"><strong>Ingeniero en Sistemas Computacionales</strong> con una pasión por la tecnología y el desarrollo de software. Soy de México del estado de Oaxaca. Me especializo en <strong>Tecnologías De Software Emergente</strong> y tengo <span className='text-blue-600'><strong>1+ año de experiencia</strong></span> en el campo.</p>
+            <span className="text-md lg:text-lg leading-relaxed text-gray-600 font-medium pb-8 pt-2">
+              Soy una persona <b>| Proactiva | Responsable | Comprometido | Amable | Fuerte Ética de Trabajo</b>
+            </span>
             <div>
               <div className="flex justify-center space-x-4">
                 <a href="https://www.linkedin.com/in/roberto-carlos-rend%C3%B3n-pel%C3%A1ez-39262b2aa/" target="_blank" rel="noreferrer noopener" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center">
