@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.294d9e0c.css",
-    "main.js": "/Portafolio/static/js/main.931c44c4.js",
+    "main.css": "/Portafolio/static/css/main.e40cacda.css",
+    "main.js": "/Portafolio/static/js/main.b2f90f1d.js",
     "static/js/453.d85580f4.chunk.js": "/Portafolio/static/js/453.d85580f4.chunk.js",
     "static/media/logo_plantel.png": "/Portafolio/static/media/logo_plantel.5eb156821651847d0adc.png",
     "static/media/logo.png": "/Portafolio/static/media/logo.18634f58020450d16ae5.png",
+    "static/media/perfil2.jpeg": "/Portafolio/static/media/perfil2.0eb571b7fd5199867ecd.jpeg",
     "static/media/sonora.jpeg": "/Portafolio/static/media/sonora.20264a20dbc2d2c38165.jpeg",
     "static/media/CNN2.jpeg": "/Portafolio/static/media/CNN2.1ba3ce0d94dde266395b.jpeg",
     "static/media/estatal.jpeg": "/Portafolio/static/media/estatal.28af7b258a9741ec54eb.jpeg",
-    "static/media/perfil.jpg": "/Portafolio/static/media/perfil.7bb16c8289305a664785.jpg",
     "static/media/acreditacionBrasil.jpeg": "/Portafolio/static/media/acreditacionBrasil.cf778903c5719e80fe60.jpeg",
     "static/media/acreditacionSonora.jpeg": "/Portafolio/static/media/acreditacionSonora.a0b0159ec0add8176aca.jpeg",
     "index.html": "/Portafolio/index.html",
-    "main.294d9e0c.css.map": "/Portafolio/static/css/main.294d9e0c.css.map",
-    "main.931c44c4.js.map": "/Portafolio/static/js/main.931c44c4.js.map",
+    "main.e40cacda.css.map": "/Portafolio/static/css/main.e40cacda.css.map",
+    "main.b2f90f1d.js.map": "/Portafolio/static/js/main.b2f90f1d.js.map",
     "453.d85580f4.chunk.js.map": "/Portafolio/static/js/453.d85580f4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.294d9e0c.css",
-    "static/js/main.931c44c4.js"
+    "static/css/main.e40cacda.css",
+    "static/js/main.b2f90f1d.js"
   ]
 }
