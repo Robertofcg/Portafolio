@@ -542,7 +542,7 @@ function App() {
 
         <div className="container mx-auto flex flex-col lg:flex-row items-center mt-10">
           <div className="lg:w-1/4 md:w-3/4 sm:w-4/5">
-            <a href='https://github.com/Robertofcg/ICA'>
+            <a href='https://github.com/Robertofcg/AplicacionPersonas'>
               <img src={proximamente} alt="Profile" className="rounded-lg shadow-lg" />
             </a>
           </div>
