@@ -11,6 +11,7 @@ import CNN from './CNN2.jpeg';
 import punto from './punto.PNG';
 import ICA from './ICA.webp';
 import factura from './facturacion.jpg';
+import proximamente from './proximamente.png';
 
 function App() {
   const [open, setOpen] = React.useState(false);
@@ -447,7 +448,7 @@ function App() {
                 </div>
                 <div className="col-span-1">
                   <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Maven</h4>
-                </div>                
+                </div>
               </div>
               <div className="experience__description">
                 <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Durante el curso de Desarrollo de Software Orientado a Servicios se llevó a cabo un proyecto enfocado en la integración del API de un microservicio de pagos para la gestión de transacciones y generación de facturas. Para el desarrollo del backend, se emplearon tecnologías como Spring (Boot, MVC, JPA) para la creación y consumo de microservicios. Mientras tanto, en el frontend se utilizó un conjunto diverso de herramientas como React.js, Bootstrap, CSS, HTML5 y JavaScript. Como base de datos, se implementó MySQL para asegurar un almacenamiento eficiente y confiable de los datos.</p>
@@ -534,6 +535,50 @@ function App() {
               </div>
               <div className="experience__description">
                 <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Proyecto desarrollado con el objetivo de crear una API para el registro de usuarios, facilitando el cálculo del Índice de Cintura Altura, así como la realización de consultas generales y personalizadas mediante un número de control proporcionado.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container mx-auto flex flex-col lg:flex-row items-center mt-10">
+          <div className="lg:w-1/4 md:w-3/4 sm:w-4/5">
+            <a href='https://github.com/Robertofcg/ICA'>
+              <img src={proximamente} alt="Profile" className="rounded-lg shadow-lg" />
+            </a>
+          </div>
+
+          <div className="lg:w-3/4 mt-6 lg:mt-0 lg:pl-8">
+            <div className="space-y-6">
+              <h3 className="text-2xl text-blue-900 font-medium">Servicio Backend de Personas</h3>
+              <div className="grid grid-cols-3 md:grid-cols-6 gap-6 lg:gap-x-6 gap-y-2">
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Spring boot</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Java</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">MySQL</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Hibernate</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">JPA</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Tomcat</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">JDBC</h4>
+                </div>
+                <div className="col-span-1">
+                  <h4 className="text-xs lg:text-sm text-gray-900 bg-gray-300 font-medium rounded-full border border-gray-300 p-1 text-center">Maven</h4>
+                </div>
+              </div>
+              <div className="experience__description">
+                <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">
+                  Este proyecto ofrece un servicio integral para la gestión de datos de personas, permitiendo su creación, consulta, edición y eliminación de manera eficiente. Se proporciona la capacidad de filtrar personas de manera general o específica, ofreciendo una amplia flexibilidad en la búsqueda. Además, la edad de cada persona se calcula automáticamente a partir de su fecha de nacimiento, simplificando así el proceso de mantenimiento de datos. Todo esto se ha implementado utilizando Spring Boot.</p>
               </div>
             </div>
           </div>
