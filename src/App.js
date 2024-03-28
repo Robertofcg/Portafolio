@@ -265,7 +265,7 @@ function App() {
                 <div className="col-span-12 relative px-4 sm:col-span-8 before:absolute before:top-[5px] before:bottom-0 before:w-0.5 before:-left-3 before:bg-gray-300 dark:before:bg-gray-700">
                   <div className="flex flex-col relative before:absolute before:top-[5px] before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-sky-800 before:dark:bg-sky-500">
                     <h3 className="text-2xl text-blue-900 font-medium"> Desarrollador Full Stack</h3>
-                    <time className="text-blue-600"> Enero 2023 - Diciembre 2023 </time>
+                    <time className="text-blue-600"> Enero 2023 - Diciembre 2024</time>
                     <h4 className="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
                     <div className="experience__description">
                       <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Proyecto de residencia profesional enfocado en el desarrollo de una aplicación web utilizando HTML, CSS,
@@ -275,7 +275,7 @@ function App() {
                   </div>
                   <div className="flex flex-col relative before:absolute before:top-[5px] before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:bg-sky-800 before:dark:bg-sky-500">
                     <h3 className="text-2xl text-blue-900 font-medium">Desarrollador Full Stack en Microservicio de Facturación</h3>
-                    <time className="text-blue-600"> Enero 2023 - Diciembre 2023 </time>
+                    <time className="text-blue-600"> Agosto 2022 - Diciembre 2022</time>
                     <h4 className="text-xl text-gray-600 font-medium"> @ Instituto tecnológico de Oaxaca </h4>
                     <div className="experience__description">
                       <p className="text-md mb-8 leading-relaxed text-gray-600 font-medium">Durante el curso de Desarrollo de Software Orientado a Servicios se llevó a cabo un proyecto enfocado
