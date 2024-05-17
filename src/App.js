@@ -252,7 +252,7 @@ function App() {
                   <p className="text-lg mb-8 leading-relaxed text-gray-600 font-medium"> Puedes descargar el CV dando clic en el boton de abajo. </p>
                   <div className="flex justify-center">
                     <button className="mt-2 cv border-solid border-4 border-blue-900 text-blue-900 text-xl rounded p-3 hover:bg-blue-900 hover:text-white">
-                      <a href='https://drive.usercontent.google.com/u/0/uc?id=1OVnMJBfyT_R-uDKodW1YlwHnbKUFpO0N&export=download'>
+                      <a href='https://drive.usercontent.google.com/u/0/uc?id=1zhL90O519q1lVnSFKKlOCEUmM5wFyxME&export=download'>
                         <b>
                           Descargar CV
                         </b>
