@@ -22,7 +22,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a href="/">
+              <a href="#home">
                 <h1 className="text-2xl	 h-8 w-auto sm:h-10 font-medium text-gray-500 lg:text-4xl">Roberto Rendón</h1>
               </a>
             </div>
